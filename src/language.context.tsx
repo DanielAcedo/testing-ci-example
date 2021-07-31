@@ -8,7 +8,7 @@ interface Context {
 export const LanguageContext = React.createContext<Context>({
   language: '',
   setLanguage: () => {
-    console.warn('Provider is not initialized');
+    console.warn('Provider is not yet initialized');
   },
 });
 
